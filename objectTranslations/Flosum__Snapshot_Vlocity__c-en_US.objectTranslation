@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Is Completed? --></label>
+        <name>Flosum__Is_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Error? --></label>
+        <name>Flosum__Is_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- No. of Data Items --></label>
+        <name>Flosum__No_of_Data_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Org --></label>
+        <name>Flosum__Org__c</name>
+        <relationshipLabel><!-- Snapshots Vlocity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Items --></label>
+        <name>Flosum__Total_Items__c</name>
+    </fields>
+    <layouts>
+        <layout>Snapshot Vlocity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Commit_To_Branch --></label>
+        <name>Flosum__Commit_To_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>
