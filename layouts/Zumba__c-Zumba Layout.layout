@@ -14,7 +14,7 @@
                 <behavior>Required</behavior>
                 <field>ApprovalDate__c</field>
             </layoutItems>
-             <layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>ExpenseAmount__c</field>
             </layoutItems>
