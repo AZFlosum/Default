@@ -705,4 +705,10 @@
         <showsStatus>true</showsStatus>
         <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
     </webLinks>
+    <validationRules>
+        <fullName>Check_Account_Location</fullName>
+        <active>true</active>
+        <errorConditionFormula>CONTAINS("abc", "abcd")</errorConditionFormula>
+        <errorMessage>Contains alpha</errorMessage>
+    </validationRules>
 </CustomObject>
