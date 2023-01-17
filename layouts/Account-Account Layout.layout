@@ -10,7 +10,8 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
-            <layoutItems>
+               </layoutItems>
+                <layoutItems>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
