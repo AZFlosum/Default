@@ -1269,4 +1269,61 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Account_Country_Timezone__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Country Timezone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Account_Country_Currency__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Country Currency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Account_Country_Language__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Country Language</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Matt_s_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Matt's Field</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Type 1</fullName>
+                    <default>false</default>
+                    <label>Type 1</label>
+                </value>
+                <value>
+                    <fullName>Type 2</fullName>
+                    <default>false</default>
+                    <label>Type 2</label>
+                </value>
+                <value>
+                    <fullName>Type 3</fullName>
+                    <default>false</default>
+                    <label>Type 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
 </CustomObject>
